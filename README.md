@@ -12,8 +12,8 @@ User Input
     │
     ▼
 ┌─────────────┐      tool call?      ┌──────────────┐
-│   Agent      │ ───────────────────▶│  Tool Node    │
-│  (Claude)    │◀─────────────────── │ (executes)    │
+│   Agent     │ ───────────────────▶│  Tool Node    │
+│  (Claude)   │◀─────────────────── │ (executes)    │
 └─────────────┘     tool result      └──────────────┘
     │
     │ no more tool calls
