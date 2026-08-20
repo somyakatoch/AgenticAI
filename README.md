@@ -11,10 +11,10 @@ memory across turns.
 User Input
     │
     ▼
-┌─────────────┐      tool call?      ┌──────────────┐
-│   Agent     │ ───────────────────▶│  Tool Node    │
-│  (Claude)   │◀─────────────────── │ (executes)    │
-└─────────────┘     tool result      └──────────────┘
+┌─────────────┐      tool call?      
+│   Agent     │ ───────────────────▶  Tool Node    
+│  (Claude)   │◀───────────────────  (executes)    
+└─────────────┘     tool result      
     │
     │ no more tool calls
     ▼
